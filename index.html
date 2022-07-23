@@ -1,0 +1,32 @@
+<body>  
+  <div class="search-container">
+    <div class="header-container">
+    <br><br><br><h2>IDBM Movie Lookup</h2>
+    <h1>Looking for your favorite movie, show, or television episode?<br>  Fill out the form to search IDBM's extensive movie database. </h1><br><br></div>
+      <div class="form-container">
+      <div class="input-fields">
+      <form class="search-form" action="/action_page.php">
+        <input type="text" class="form-control" placeholder="Enter API Key" id="apikey" required><br>
+      <input type="text" class="form-control" placeholder="Enter Title or Search Parameter" id="title" required><br>
+            <input type="text" class="form-control" placeholder="Movie, Series, or Episode?" id="type"><br>
+        <input type="text" class="form-control" placeholder="Year" id="year"><br>
+       <input type="text" class="form-control" placeholder="Plot.  Short or Full?" id="plot" required><br><br>
+        </div>
+            <input type="submit" id="button" class="search-button" value="Search"></b> <br>
+        </form>
+        </div>
+  </div>
+  
+    <main>
+      <div class="result-container">
+        <p>Here are your results.  Following the link takes you away from this site:</p>
+        <div class="output">Nothing Yet</div>
+        <div class="poster-container">
+          <div class="poster"></div>
+          <a href="/">Link</a>
+        </div>
+      </div>
+    <script src="./src/app.js"></script>
+   
+</body>
+</html>
