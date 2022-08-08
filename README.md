@@ -1,6 +1,5 @@
 This project has many private alts with a gazillion commits.  Please let me know if your're interested in access to any of those alt PJs.
 
-# Project1_Sub
 Simple Movie Lookup App
 
 Create a new local project that uses Vite, Prettier, and ESLint
