@@ -89,6 +89,14 @@ function displayMovieDetails(details){
 
 window.addEventListener('click', (event) => {
     if(event.target.className != "form-control"){
-        searchList.classList.add('hide-search-list');
+        searchList.classList.add("hide-search-list");
     }
 });
+
+document.querySelector("#com-fav").addEventListener("submit", (ev) => {
+    ev.preventDefault();
+  createComment();
+  insertComment();
+  addComment();
+  renderComment();
+  });
